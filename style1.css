@@ -1,0 +1,76 @@
+header > div > a {
+    color: black;
+    text-decoration: none;
+}
+body {
+    padding: 0 5px 0 5px;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;;
+    align-items: center;
+    background-color: blue;
+}
+.Contacts_1 {
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin: 50px 20px 50px 70px; 
+    height: 40px;
+    width: 160px;
+    background-color: #f9b900;
+    font-family: Verdana;
+}
+.Contacts_1:hover {
+    background-color: #f7bb18;
+    text-decoration: none;
+}
+
+.Contacts_2 {
+    color: white;
+    float: left;
+}
+.main-menu {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin: 40px 100px 40px 100px;
+}
+.Header_2 {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 70px;
+}
+#header {
+    height: 413px;
+    width: 584px;
+}
+#test {
+    height: 30px;
+    width: 80px; 
+    background-color: #f9b900;
+    overflow: hidden;
+    text-decoration: none;
+}
+#test:hover {
+    height: 130px;
+    width: 80px;
+
+    text-decoration: none; 
+}
+.Button_1 {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
